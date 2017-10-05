@@ -12,7 +12,8 @@ package Stack with SPARK_Mode => On is
      with Post => Size = 0;
 
    function Top return Character
-     with Post => Top'Result = Tab(Last);
+     with Pre => not Empty,
+     Post => Top'Result = Tab(Last);
 
    Max_Size : constant := 9;
    --  The stack size.
