@@ -1,0 +1,5 @@
+*.o
+*.ali
+*.npp
+obj/*
+!obj/.gitkeep
