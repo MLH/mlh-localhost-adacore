@@ -7,6 +7,10 @@ programming with SPARK Ada][3] workshop.
 
  - Simple Stack - [Source][1] / [Download][2]
 
+## Installation & Setup
+
+Looking for install instructions?  Find them in [INSTALL.md](INSTALL.md).
+
 ## License
 
 Unless otherwise stated, the code in this repo is released under the MIT
