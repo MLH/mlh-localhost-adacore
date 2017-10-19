@@ -11,10 +11,10 @@ Looking for the workshop page? [Click Here!][1]
 
 There are two ways to get the install files and sample code for this workshop.  Select the option that best fits your situation below:
 
- - [**Install from USB Flash Drive**](#usb) - Select this option if you are at a workshop which has USB Flash Drives with the software already on them.
- - [**Download the Software**](#web) - Select this option if you do not have access to a physical USB Flash Drive with the software already on it.
+ - [**Install from USB Flash Drive**](#installing-from-usb) - Select this option if you are at a workshop which has USB Flash Drives with the software already on them.
+ - [**Download the Software**](#installing-from-the-web) - Select this option if you do not have access to a physical USB Flash Drive with the software already on it.
 
-## [Installing from USB](#usb)
+## [Installing from USB](#installing-from-usb)
 
 Some workshops have physical USB Flash Drives that contain the installation files.  If you are at a workshop with USB devices and have one in your posession, follow these instructions.
 
@@ -72,7 +72,7 @@ run the application when it comes up.
 The extracted archive contains a file called `gps`.  Double click this file to
 start the program.
 
-## [Installing from the Web](#web)
+## [Installing from the Web](#installing-from-the-web)
 
 You can easily download all of the software you need for this workshop from the Internet.  **Warning**: These files are quite large (~500MB).  It is recommended you download these files ___before___ the workshop because it can take a long time depending on your connection. 
 
