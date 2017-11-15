@@ -123,7 +123,7 @@ run the application when it comes up.
 The extracted archive contains a file called `gps`.  Double click this file to
 start the program.
 
-[1]: https://localhost.mlh.io/activities/adacore-bug-free-coding
+[1]: https://localhost.mlh.io/activities/intro-to-sparkada/
 [2]: https://github.com/MLH/mlh-localhost-adacore/archive/master.zip
 [3]: https://github.com/MLH/mlh-localhost-adacore
 [4]: http://hackp.ac/adacore-linux
