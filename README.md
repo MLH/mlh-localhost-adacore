@@ -39,4 +39,4 @@ SOFTWARE
 ```
 [1]: https://github.com/MLH/mlh-localhost-adacore
 [2]: https://github.com/MLH/mlh-localhost-adacore/archive/master.zip
-[3]: https://localhost.mlh.io/activities/bug-free-programming-with-spark-ada/
+[3]: https://localhost.mlh.io/activities/intro-to-sparkada/
