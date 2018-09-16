@@ -7,7 +7,7 @@ is
 
    procedure Clear is
    begin
-      Last := Tab'First;
+      Last := Storage'First;
    end Clear;
 
    ----------
@@ -16,7 +16,7 @@ is
 
    procedure Push (V : Character) is
    begin
-      Tab (Last) := V;
+      Storage (Last) := V;
    end Push;
 
    ---------
@@ -26,7 +26,7 @@ is
    procedure Pop (V : out Character) is
    begin
       Last := Last - 1;
-      V := Tab (Last);
+      V := Storage (Last);
    end Pop;
 
    ---------
@@ -35,7 +35,7 @@ is
 
    function Top return Character is
    begin
-      return Tab (1);
+      return Storage (1);
    end Top;
 
 end Stack;
