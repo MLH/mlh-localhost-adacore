@@ -39,8 +39,8 @@ procedure Example is
          Put_Line ("Top: " & Stack.Top);
 
          Put ("Stack: [");
-         for I in Stack.Tab'First .. Stack.Size loop
-            Put (Stack.Tab(I) & ", ");
+         for I in Stack.Storage'First .. Stack.Size loop
+            Put (Stack.Storage(I) & ", ");
          end loop;
          Put_Line ("]");
       else
