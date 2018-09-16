@@ -20,7 +20,7 @@ package Stack with SPARK_Mode => On is
    Last : Integer range 0 .. Max_Size := 0;
    --  Indicates the top of the stack. When 0 the stack is empty.
 
-   Storage  : array (1 .. Max_Size) of Character;
+   Storage : array (1 .. Max_Size) of Character;
    --  The stack. We push and pop pointers to Values.
 
    function Full return Boolean is (Last >= Max_Size);
