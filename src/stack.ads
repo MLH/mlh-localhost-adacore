@@ -12,7 +12,7 @@ package Stack with SPARK_Mode => On is
      with Post => Size = 0;
 
    function Top return Character
-     with Post => Top'Result = Tab(Last);
+     with Post => Top'Result = Storage(Last);
 
    Max_Size : constant := 9;
    --  The stack size.
@@ -20,7 +20,7 @@ package Stack with SPARK_Mode => On is
    Last : Integer range 0 .. Max_Size := 0;
    --  Indicates the top of the stack. When 0 the stack is empty.
 
-   Tab  : array (1 .. Max_Size) of Character;
+   Storage  : array (1 .. Max_Size) of Character;
    --  The stack. We push and pop pointers to Values.
 
    function Full return Boolean is (Last >= Max_Size);
